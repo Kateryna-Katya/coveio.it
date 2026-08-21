@@ -33,3 +33,23 @@ height: 823px;
     padding-top: 139px;
 }   
 }
+/* About the Game */
+.about-container{
+    padding-top: 80px;
+}
+.about-img{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+.about-container {
+        padding-top: 150px;
+    }
+.about-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+    .about-img {
+        display: block;
+    }
+}
