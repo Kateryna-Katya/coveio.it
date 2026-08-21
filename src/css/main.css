@@ -177,20 +177,25 @@ margin-right: auto;
 width: 630px;
 height: 92px;
 }
-
-.faq-item-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: "DM Serif Display", sans-serif;
+}
+/* Contact */
+.contact-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.contact-link{
+    display: inline-block;
+    margin-top: 16px;
+font-family: "DM Serif Display", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
-    color: #f8f5ff;
-    text-align: left;
+    text-align: center;
+    color: #59e7ff;
 }
-
-.faq-item-text {
-    text-align: left;
-}
+@media only screen and (min-width: 1440px) {
+ .contact-container{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}   
 }
